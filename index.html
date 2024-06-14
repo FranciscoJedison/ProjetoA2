@@ -21,11 +21,21 @@
         text-align: center;
       }
       @media (min-width: 576px){
-      .img{
+      img .img-fluid{
+        min-width: fit-content;
         max-width: 100%;
         height: auto;
       }
     }
+    @media (min-width: 576px){
+      img .card-img-top{
+        min-width: fit-content;
+        max-width: 100%;
+        height: auto;
+        position: absolute;
+      }
+    }
+
     </style>
 
   </head>
@@ -96,7 +106,7 @@
       </div>
       <hr>
 
-      <img src="img/banner.png" />
+      <img src="img/banner.png" class="img-fluid"/>
 
       <p>
         
